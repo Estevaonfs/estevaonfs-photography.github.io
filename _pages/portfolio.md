@@ -3,14 +3,25 @@ layout: single
 title: "Portfólio"
 permalink: /portfolio/
 classes: wide
+gallery:
+  - url: /assets/images/foto1.jpg
+    image_path: /assets/images/foto1.jpg
+    alt: " "
+    title: " "
+  - url: /assets/images/galho1.jpg
+    image_path: /assets/images/galho1.jpg
+    alt: " "
+    title: " "
+  - url: /assets/images/barcos1.jpg
+    image_path: /assets/images/barcos1.jpg
+    alt: "Horizontes"
+    title: "Horizontes"
+  - url: /assets/images/cagaita.jpg
+    image_path: /assets/images/cagaita.jpg
+    alt: "Cagaita"
+    title: "Cagaita"
 ---
 Bem-vindo ao meu **portfólio de fotografias de natureza**.  
-Aqui você encontrará coleções organizadas por temas e emoções.
+Aqui você encontrará coleções que revelam a beleza e a diversidade do Cerrado brasileiro.
 
-{% include gallery id="nature-gallery" caption="Coleção: Luz e Vida" %}
-
-<div style="display:flex; flex-wrap:wrap; gap:10px; justify-content:center; margin-top:2em;">
-  <img src="/assets/images/folhanocapim.jpg" alt="Foto 1" style="width:30%; border-radius:8px;">
-  <img src="/assets/images/featured2.jpg" alt="Foto 2" style="width:30%; border-radius:8px;">
-  <img src="/assets/images/featured3.jpg" alt="Foto 3" style="width:30%; border-radius:8px;">
-</div>
+{% include gallery id="gallery" caption="Coleção Flora e Paisagem" %}
